@@ -20,7 +20,7 @@ export async function check_for_data() {
     const [price_data, country_code] = x.value;
     current_avails.set(country_code, {
       ...price_data,
-      last_checked: new Date(new Date().getTime() - (7 * 24 * 60 * 60 * 1000)),
+      last_checked: new Date(new Date().getTime()),
     });
   });
   console.info("data found!", current_avails);
