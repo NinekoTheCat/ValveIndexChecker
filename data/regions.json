@@ -1,0 +1,17 @@
+[
+  {
+    "code": "US",
+    "name": "North America",
+    "currency": "USD"
+  },
+  {
+    "code": "DE",
+    "currency": "EUR",
+    "name": "Europe"
+  },
+  {
+    "code": "GB",
+    "currency": "GBP",
+    "name": "United Kingdom"
+  }
+]
